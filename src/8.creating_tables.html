@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="8.css">
+        <title>Creating  Tables</title>
+    </head>
+
+    <body>
+        <header>
+        <h1>My 2 favourite football teams</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#Liverpool"> Liverpool</a>
+                </li>
+                <li>
+                    <a href="#Barcelona"> Barcelona</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        
+        <main>
+        <!--Section tag,Should have an id-->
+        <article id="Liverpool">
+         <h2>My name is Brian Nyaga</h2>    
+            <section>
+        <code>&lt;h1&gt;LFC&lt;/h1&gt;</code>
+        <p>I am a liverpool fan</p>
+        <figure>
+        <img src="6.images/liverpool_logo.jpg" alt="liverpool_logo" title="LFC" width="220" height="200" loading="lazy">
+        <figcaption>Liverpool logo</figcaption>
+        </figure>
+        
+        <!--Download link-->
+        <ul>
+            <li>Download <a href="liverpool_logo.jpg" download>liverpool_logo</a></li>
+        </ul>
+        <!--Download link-->
+
+        <hr>
+        <h3>YNWA</h3>
+        <p>Symbolizes the Liverpool club </p>
+        
+        <!--ORDERED LIST-->
+        <ol>
+           <li>...Hugo Ekitike is the liverpool striker.</li>
+           <li>...Dominic Szoboslia is a freekick master.</li>
+           <!--Adding links-->
+           <li>...Allison Becker is the liverpool GoalKeeper.<abbr title = "You Will Never Walk Alone " ><a href="https://www.liverpoolfc.com/">YNWA</a>Official liverpool website</abbr>.</li>
+        </ol>
+        </section>
+
+        <section>
+            <h2>Contact@liverpool</h2>
+        <!--ORDERED LIST-->
+        <ul>
+            <li>Email Liverpool@<a href="mailto:@liverpoolfc.com">Liverpoollfc.com</a></li>
+            
+        </ul>
+        
+        <p>The club is located in </p><address>
+            5/5 (5 Ukbride reviews) · Sports club in Liverpool<br>
+            , United KingdomAnfield Road, Liverpool L4 0TH<br>
+            Open · Closes 17:00 · More hours<br>
+            +44 151 260 6677
+        </address>
+        <!--Address inline element-->
+                <aside>
+                <details>
+                    <summary> Guess the Liverpool player that made me love liverpool</summary>
+                    <p>It is none other than the Egyptian king <mark>Mohameed Salahs</mark></p>
+                    </details>
+                </aside>
+                <table>
+                    <caption>Liverpool icons</caption>
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Nick-Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Egyptian</th>
+                        <td>
+                           Mohameed Salah
+                        </td>
+                        <td>= Egyptian King</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Netherlands</th>
+                        <td>
+                           Virgil Van Digk
+                        </td>
+                        <td>= The Great Wall Of Liverpool</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Brazilian</th>
+                        <td>
+                           Allison Becker
+                        </td>
+                        <td>= GoalKeeper</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">German</th>
+                        <td rowspan="2">Jurgen Klopp </td>
+                        <td>Legend</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Coach</th>
+                        <td>Liverpool Coach</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">The Liverpool club Legends who brought a Ucl in 2019</td>
+                        </tr>
+                    </tfoot>
+                </table>
+        </section>
+          
+        </article>
+    
+        <hr>
+        <!--Un ordered list-->
+        <article id="Barcelona">
+            <h2>Club Overview</h2> 
+            <section>
+               <h2>Barcelona Football club</h2> 
+            <figure>
+            <img src="6.images/Barcelona-Logo.png" alt="Barcelona-Logo" width="220" height="200" title="Barcelona" loading="lazy">
+            <figcaption>Barcelona logo</figcaption>
+            </figure>
+            <p>Download <a href="Barcelona-Logo.png" download="">Barcelona-Logo</a></p>
+        <ul>
+
+        <li>I also enjoy watching Barcelona Football club</li>
+        <li><p>Pedri is a Football magician on the<em> pitch</em></p></li>
+        <li><p>Lionel Messi is a living legend in the Club.</p></li>
+        </ul>
+<!--Un ordered list-->
+
+<!--Description list-->
+        <dl>
+        <dt>Cristiano Ronaldo</dt>
+        <dd>He is also one of the best footballers of this generation.</dd>
+        <dt>Neymar Junior</dt>
+        <dd>The brazilian footballer is one of the best <strong>dribblers of this generation</strong> .</dd>
+        </dl>
+        </section>
+        <section>
+            <h2>contact @Barcelona</h2>
+        <ul>
+            <li>Email Barcelona@<a href="mailto:oab@fcbarcelona.cat.">gmail</a></li>
+            <li>Contact Barcelona@<a href="tel:00+34+">number</a>+9 digit phone number</li>
+            <li>Open<a href="https://www.fcbarcelona.com/" target="_blank">Barcelona</a>Website in their official website</li>
+        </ul>
+        <p>The club is located in</p>
+        <address>Barcelona in spain</address>
+        <aside>
+            <details>
+                <summary>And the Barcelona Player that made me love Barcelona is</summary>
+                <p><mark>Lionel Messi</mark></p>
+            </details>
+        </aside>
+        </section>
+        </article>
+        <!--Description list-->
+        </main>
+
+        <footer>
+        <p>&lt;&lt;&lt; &copy;Brian Nyaga &gt;&gt;&gt;</p>
+        <p>
+            <a href="#">Back To Top</a>
+        </p>
+        </footer>
+    </body>
+</html>
