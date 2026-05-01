@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATM Withdrawal</title>
+</head>
+
+<body>
+
+<h2>ATM Withdrawal System</h2>
+
+<script>
+
+let balance = 5000;   // account balance
+let amount;
+
+do
+{
+    amount = parseFloat(prompt("Enter amount to withdraw:"));
+
+    if(amount > balance)
+    {
+        alert("Insufficient Balance!");
+    }
+
+}
+while(amount > balance);
+
+balance = balance - amount;
+
+document.write("Withdrawal successful! <br>");
+document.write("Amount withdrawn: " + amount + "<br>");
+document.write("Remaining balance: " + balance);
+
+</script>
+
+</body>
+</html>
