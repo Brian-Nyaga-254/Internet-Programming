@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Brian Nyaga">
+        <meta name="Description" content="A website where individuals can showcase their side hustles for advertisments">
+        <title>Side Hustle Connections</title>
+        <link rel="stylesheet" href="side_hustle.css">
+    </head>
+    <body>
+        <!-- <a href="#Header">Top</a> -->
+        <!--  <a href="#Main">Middle</a> -->
+       
+        <header>
+             <article id="Header">
+            <h1>Side hustler Advertiser</h1>
+            <p>Welcome,Support the side hustles and let us grow together</p>
+            <hr>
+            </article>
+        </header>
+        <main>
+            <article id="Main">
+            <h1>Josees Shoe Supplier</h1>
+            <figure>
+            <img src="images/shoeImage.webp" alt="Shoe image" height="200" width="220" loading="lazy">
+            <figcaption>Get Quality and affordable shoes here at josees</figcaption>
+            </figure>
+            <address>
+                Ruiru behind rainbow hotel
+            </address>
+            <hr>
+            <h2>Joy's Nail Shop</h2>
+            <figure>
+                <img src="images/nailsImages.webp" alt="Nail Technician" width="220" height="200" loading="lazy">
+                <figcaption>Welcome and get your nails fixed at an affordable price</figcaption>
+            </figure>
+            <ol>
+                <li>Shoe Seller</li>
+                <li>Nail Technician</li>
+            </ol>
+            <ul>
+                <li>Joseph</li>
+                <li>Joy</li>
+            </ul>
+            <dl>
+                <dt>Joseph</dt>
+                <dd>Shoe Seller</dd>
+                <dt>Joy</dt>
+                <dd>Nail Technician</dd>
+            </dl>
+
+
+
+            <address>Ruiru at Kihunguro</address>
+            <a href="#">Back to Top</a>
+            </article>
+        </main>
+        <footer>
+            <br>
+            <table>
+                <thead>
+                <tr>
+                    <th scope="row">Name</th>
+                    <th scope="row">Business</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="col">Joseph</td>
+                        <td>Shoe Seller</td>
+                    </tr>
+                    <tr>
+                        <td scope="col">Joy</td>
+                        <td>Nail Technician</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"># Support Business</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>Send Me a note</p>
+            <form action="register.php" method="post">
+                <fieldset>
+                <legend>Personal Info</legend>
+                 First Name:<input type="text" name="name" placeholder="Brian"><br>
+                 Second Name:<input type="text" name="name" placeholder="Nyaga"><br>
+                 Gender:
+                 <input type="radio" name="gender" value="Male">Male
+                 <input type="radio" name="gender" value="Female">Female<br>
+                 Location:
+                 <select name="Location">
+                    <option>Nairobi</option>
+                    <option>Mombasa</option>
+                    <option>Embu</option>
+                 </select><br>
+                 <button type="Submit">Submit</button><br>
+                 category:
+                <p><input type="checkbox" name="category" value="student">Student</p>
+                <p><input type="checkbox" name="category" value="Employed">Employed</p>
+                 </fieldset>
+                 <fieldset>
+                    <legend>
+                        Send me a note
+                    </legend>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                 </fieldset>
+
+            </form>
+
+        </footer>
+    </body>
+</html>
