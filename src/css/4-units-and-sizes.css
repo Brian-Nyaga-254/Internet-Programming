@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+}
+h1{
+    border:2px dashed lavender;
+    width:50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+main{
+    font-size: 2rem;
+    width: 50%;
+    background-color: aqua;
+}
+p{
+    font-size: 2rem;
+    width:40ch;
+}
