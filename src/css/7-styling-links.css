@@ -1,0 +1,22 @@
+body{
+    padding: 10%;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color: #000;
+    /* text-decoration: none;
+    cursor:pointer;
+    color:blue; */
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:focus{
+  /*   color: dodgerblue; */
+  opacity:0.4;
+  background: greenyellow;
+}
+a:active {
+    color: red;
+}

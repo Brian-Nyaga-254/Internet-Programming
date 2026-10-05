@@ -1,0 +1,42 @@
+body{
+    padding: 5% 10%;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 229, 255);
+}
+h1, h2{
+    color:rgb(162, 0, 255)
+}
+ol{
+    color:	#99ff00;
+    list-style: square;
+    padding: 0;
+}
+ul{
+    list-style-type:circle;
+    text-align:center;
+    list-style-position: inside;
+    color:rgb(0, 0, 0);
+    line-height: 2;
+    list-style: square inside;
+   /*  list-style-image: url("../check_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png") */
+    /* list-style:square url('../check_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png') inside; */
+}
+
+ul li:nth-child(3){
+    color:rgb(59, 138, 255);
+}
+ ul ::marker{
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content:">>";
+
+}
+dd{
+    color:rgb(59, 138, 255);
+}
+dt{
+    text-align: end;
+    color:gray;
+}
