@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{display:block;}
+body{
+    font-family: monospace;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url('./images/transparent-bubble.jpg'),
+    linear-gradient(to left, steelblue, white);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    
+    /* background: repeat-y right center url('./images/bubbles.webp'), no-repeat linear-gradient(to left, steelblue white); */
+    background-size: 20% auto;
+
+
+}
+
+.clip{
+    font-weight: 80;
+    font-size: 10rem;
+    text-align: center;
+    background-image: url('./images/map.jpg');
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0);
+}

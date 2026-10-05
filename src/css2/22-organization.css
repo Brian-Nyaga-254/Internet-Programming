@@ -1,0 +1,55 @@
+:root{
+    --HEADER-BGCOLOR:#333;
+    --COLOR: white;
+}
+
+html{
+    font-size: 2rem;
+}
+
+
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+/* Blocks
+aka components */
+
+.header{
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header__btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.header__header__btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/* modifiers
+incremental style changes */
+
+/* blocks with modifiers */
+
+.header__btn--secondary{
+    background-color: yellow;
+}
+
+.header__btn--lean{
+    transform: skewX(-10deg);
+}
+
+.header__btn--border-lg{
+    border:5px solid whitesmoke;
+}

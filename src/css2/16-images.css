@@ -1,0 +1,82 @@
+/* Begin reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{display:block;}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap{
+   white-space: nowrap; 
+}
+.offscreen{
+    position: absolute;
+    left: -100000px;
+}
+
+
+/* End Utility classes */
+body{
+    font-family: monospace;
+    min-height: 100vh;
+
+
+}
+.container{
+    background-color: aquamarine;
+background-image: url('./images/map.jpg');
+background-repeat: repeat;
+background-size:cover;
+background-position: bottom right;
+
+}
+.hero{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 30px;
+
+    background-color: hsla(0, 0%,100%, 0.402);
+
+/* Background images */
+/* background-color: aquamarine;
+background-image: url('./images/map.jpg');
+background-repeat: repeat;
+background-size:cover;  */
+
+}
+.h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+  /*   background-color: hsla(0, 0%, 0%, 0.402);
+    padding: 0.25rem;
+    border-radius: 10px; */
+    
+}
+
+.Goat-pic-figure{
+    width:15%;
+}
+.Goat-pic-figure img{
+    width:100%;
+    height:auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+.example img{
+    width:25%;
+    height:auto;
+}
